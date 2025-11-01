@@ -1,0 +1,40 @@
+1. Import necessary Libraries 
+
+2. Load Dataset
+
+3. Data Cleaning 
+● Check for missing/null values. 
+● Fill or drop missing data as appropriate. 
+● Remove duplicates. 
+● Standardize column names (lowercase, replace spaces with underscores)
+
+4. Data Preprocessing 
+● Convert date columns to datetime. 
+● Create new features (e.g., active cases = confirmed - deaths - recovered). 
+● Group by country or continent for aggregation. 
+
+5. Exploratory Data Analysis (EDA) 
+In this part, you will explore the cleaned dataset to find patterns and insights using 
+visualizations. 
+1. Top 10 Countries by Confirmed Cases 
+● Group the data by Country. 
+● Find the total or maximum confirmed cases for each country. 
+● Select the top 10 countries with the highest number of cases. 
+● Visualize this using a bar chart to compare their case counts. 
+2. Trend of Cases Over Time 
+● Use the Date column to analyze how confirmed cases have changed over time. 
+● Plot a line graph showing the trend of total confirmed cases. 
+● You can focus on a few selected countries or show global totals. 
+3. Correlation Between Numerical Columns 
+● Identify numeric columns like Confirmed, Deaths, Recovered, Tests, etc. 
+● Find how these variables are related to each other using correlation. 
+● Visualize the correlation matrix using a heatmap. 
+4. Continent-Level Analysis 
+● If your dataset includes or can be grouped by Continent, analyze data for each 
+continent. 
+● Compare total cases, deaths, or recovery rates using a pie chart or bar chart. 
+● This helps visualize how the pandemic affected different regions. 
+Expected Outcome 
+● A clean, well-structured dataset. 
+● Insightful visualizations (trends, comparisons, correlations). 
+● A brief report or notebook summarizing your findings
