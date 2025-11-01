@@ -1,0 +1,10 @@
+To perform data cleaning, preprocessing, and visualization on a COVID-19 dataset to 
+extract insights about global trends, country-level statistics, and relationships between 
+features such as cases, deaths, and recoveries. 
+
+Pandas: Data loading, cleaning, grouping, and aggregation 
+NumPy: Numerical operations and missing value handling 
+Matplotlib & Seaborn: Data visualization (bar, line, heatmap, correlation) 
+Data Preprocessing: Handling missing values, removing duplicates, type 
+conversions
+
